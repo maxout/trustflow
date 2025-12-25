@@ -3,22 +3,22 @@ import React from 'react';
 
 const FinalCTA: React.FC = () => {
   return (
-    <section className="py-32 px-6 text-center bg-white dark:bg-dark-bg">
-      <div className="max-w-4xl mx-auto border border-gray-100 dark:border-dark-border p-16 rounded-[40px] bg-light-card dark:bg-dark-card relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-brand-purple/10 blur-[80px] rounded-full"></div>
+    <section className="py-48 px-6 text-center bg-brand-deep">
+      <div className="max-w-6xl mx-auto border border-white/5 p-16 md:p-32 rounded-[64px] bg-glass relative overflow-hidden group">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-brand-purple/20 blur-[150px] rounded-full -z-10 opacity-30 group-hover:opacity-50 transition-opacity duration-1000"></div>
         <div className="relative z-10">
-          <h2 className="text-5xl md:text-6xl font-black tracking-tight mb-10 dark:text-white leading-[1.1]">
-            Bereit für den <span className="text-gradient">nächsten Level?</span>
+          <h2 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-16 text-white leading-[0.85]">
+            Trust that <br className="hidden md:block"/> <span className="text-gradient">wins.</span>
           </h2>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="bg-gradient-brand text-white px-10 py-4 rounded-full font-bold text-xl shadow-xl shadow-brand-purple/20 hover:scale-105 transition-transform w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-16">
+            <button className="bg-brand-purple text-white px-12 py-6 rounded-full font-black text-xl shadow-2xl shadow-brand-purple/40 hover:scale-105 transition-transform w-full sm:w-auto">
               Jetzt kostenlos starten
             </button>
-            <button className="bg-white dark:bg-dark-bg text-[#213547] dark:text-white px-10 py-4 rounded-full font-bold text-xl border border-gray-200 dark:border-dark-border hover:border-brand-blue transition-colors w-full sm:w-auto">
-              Demo buchen
+            <button className="bg-white/5 text-white px-12 py-6 rounded-full font-bold text-xl border border-white/10 hover:bg-white/10 transition-all w-full sm:w-auto">
+              API Dokumentation
             </button>
           </div>
-          <p className="mt-8 text-gray-500 dark:text-gray-500 font-medium">In weniger als 5 Minuten einsatzbereit. Keine Verpflichtung.</p>
+          <p className="text-gray-500 font-bold uppercase tracking-[4px] text-[10px] opacity-60">Einsatzbereit in unter 5 Minuten. Keine Kreditkarte erforderlich.</p>
         </div>
       </div>
     </section>
